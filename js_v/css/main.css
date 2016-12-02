@@ -1,0 +1,96 @@
+div,
+ul,
+li,
+body
+{
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    position: relative;
+
+    list-style: none;
+
+    -webkit-transition: all 1s;
+       -moz-transition: all 1s;
+         -o-transition: all 1s;
+            transition: all  1s;
+}
+li
+{
+    float: left;
+}
+img
+{
+    width: 600px;
+    height: 300px;
+}
+#main
+{
+    position: relative;
+
+    width: 600px;
+    height: 320px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#carousel
+{
+    position: relative;
+    right: 0;
+    left: 0;
+
+    width: 1800px;
+    height: 300px;
+}
+#view
+{
+    overflow: hidden;
+
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.change
+{
+    position: absolute;
+    top: 125px;
+
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+
+    opacity: .7;
+    border-radius: 50%;
+    background-color: white;
+}
+#left
+{
+    left: -25px;
+}
+#right
+{
+    left: 575px;
+}
+#dot_list
+{
+    position: relative;
+    left: 255px;
+}
+.dot
+{
+    float: left;
+
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px 0 10px;
+
+    cursor: pointer;
+
+    opacity: .7;
+    border-radius: 50%;
+    background-color: white;
+}
